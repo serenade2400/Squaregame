@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.shape{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    font-family: 'Montserrat';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px ;
+    margin-left: 10px;
+}
+.rect{
+    display: flex;
+}
+#cursor{
+    height: 10px;
+    width: 10px;
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    
+}
